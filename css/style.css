@@ -506,3 +506,50 @@ h1 {
   height: 100%;
   object-fit: cover;
 }
+/* / CTA */
+
+/* SUB */
+.sub-section {
+  background-color: #6f73ee;
+  margin-top: 100px;
+  padding: 24px 0;
+}
+.sub-section-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.sub-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-input {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 410px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+  height: 53px;
+}
+.sub-btn {
+  background: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #6f73ee;
+  height: 53px;
+  margin-left: 20px;
+  padding: 15px 25px;
+}
