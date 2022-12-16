@@ -433,3 +433,76 @@ h1 {
   background-color: #fff;
   border: 1px solid #eaebed;
 }
+/*  */
+/* CTA */
+.cta-section {
+  margin-top: 100px;
+}
+.cta {
+  height: 445px;
+  background: #f4f7fb;
+  border-radius: 10px;
+  padding-top: 100px;
+  position: relative;
+}
+.cta-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: #282739;
+  margin: 0;
+  padding: 0;
+}
+.cta-text {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  color: #282739;
+  margin-bottom: 20px;
+}
+.cta-input {
+  width: 263px;
+  height: 53px;
+  left: 166px;
+  top: 2762px;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 5px;
+  padding: 15px 25px;
+}
+.cta-btn {
+  background: #6f73ee;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.checkbox-wrapper {
+  display: block;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cta-img-wrapper {
+  position: absolute;
+  width: 410px;
+  height: 494px;
+  bottom: 0;
+  right: 180px;
+}
+.cta-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
