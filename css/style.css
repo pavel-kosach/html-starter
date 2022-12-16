@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
 * {
   box-sizing: border-box;
+  outline: none;
 }
 body {
   font-family: "Jost", sans-serif;
@@ -139,7 +140,7 @@ input {
   height: 445px;
   background-color: #3e3e3e;
   margin: auto;
-  padding: 56px 136px;
+  padding: 56px 0;
   border-radius: 10px;
   background: linear-gradient(
     73.21deg,
@@ -184,4 +185,45 @@ h1 {
   line-height: 29px;
   color: #ffffff;
   margin-top: 7px;
+}
+.header-features {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.header-features-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 235px;
+}
+.header-features-icon-block {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  opacity: 0.2;
+  border-radius: 5px;
+}
+.header-features-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin: 0;
+}
+.header-btn {
+  margin-top: 38px;
+  padding: 15px 40px;
+  background-color: #fff;
+  color: #6f73ee;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
 }
