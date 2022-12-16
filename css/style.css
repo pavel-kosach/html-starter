@@ -553,3 +553,49 @@ h1 {
   margin-left: 20px;
   padding: 15px 25px;
 }
+
+/* Footer */
+.footer {
+  background-color: #f4f7fb;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 19px;
+  padding-top: 18px;
+}
+.footer-bottom-links {
+  display: flex;
+  gap: 44px;
+}
+.footer-bottom-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #5d6c7b;
+}
+.social-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #282739;
+}
+.footer-bottom-payment_social {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.footer-bottom-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-bottom-payment {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
