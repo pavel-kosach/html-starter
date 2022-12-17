@@ -374,6 +374,9 @@ h1 {
   border-radius: 10px;
   object-fit: cover;
 }
+.scooter-test-img {
+  object-position: -166px;
+}
 /* / Description */
 /* Shop-list */
 .shop-list-section {
