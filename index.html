@@ -9,7 +9,20 @@
   </head>
   <body>
     <nav class="navbar">
-      <div class="container">
+      <div class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </div>
+      <div class="mobile-logo-wrapper">
+        <div class="mobile-logo">
+          <svg class="icon" width="116px" height="43px">
+            <use href="./img/sprite.svg#logo"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="free-block"></div>
+      <div class="container nav-top-content">
         <div class="navbar-top-wrapper">
           <div class="top-menu-wrapper">
             <ul class="navbar-top-list">
@@ -51,7 +64,7 @@
         </div>
       </div>
       <div class="top-border"></div>
-      <div class="container">
+      <div class="container nav-bottom">
         <div class="navbar-bottom-wrapper">
           <div class="logo">
             <svg class="icon" width="116px" height="43px">
@@ -94,7 +107,7 @@
               <svg class="search-icon" width="20px" height="20px">
                 <use href="./img/sprite.svg#cart"></use>
               </svg>
-              Корзина
+              <span class="cart-btn">Корзина</span>
             </a>
           </div>
         </div>
@@ -556,7 +569,81 @@
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="footer-menu"></div>
+        <div class="footer-menu">
+          <div class="footer-menu-block">
+            <h3 class="footer-menu-title">Каталог товаров</h3>
+            <ul class="footer-menu-list">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Электросамокаты</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Электроскутеры</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Электровелосипеды</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Электровелосипеды</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu-block footer-menu-second-block">
+            <h3 class="footer-menu-title">Покупателям</h3>
+            <ul class="footer-menu-list menu-2-columns">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Сервисный центр</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Доставка и оплата</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Рассрочка</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Тест-драйв</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Блог</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Сотрудничество</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Контакты</a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Акции</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu-block footer-menu-third-block">
+            <h3 class="footer-menu-title">Контакты</h3>
+            <ul class="footer-menu-list menu-2-columns">
+              <li class="footer-menu-item footer-menu-text">Call-центр</li>
+              <li class="footer-menu-item">
+                <a href="tel:+78005055461" class="footer-menu-phone">
+                  +7 (800) 505-54-61
+                </a>
+              </li>
+              <li class="footer-menu-item footer-menu-info">
+                Пн-Вс 10:00 - 20:00
+              </li>
+              <li class="footer-menu-item footer-menu-text">Сервисный центр</li>
+              <li class="footer-menu-item">
+                <a href="tel:+74993507692" class="footer-menu-phone">
+                  +7 (499) 350-76-92
+                </a>
+              </li>
+              <li class="footer-menu-item footer-menu-info">
+                Пн-Вс 10:00 - 20:00
+              </li>
+            </ul>
+          </div>
+          <div class="footer-menu-block">
+            <a href="#" class="footer-cta-link"> Заказать звонок </a>
+          </div>
+        </div>
+        <hr class="footer-hr" />
         <div class="footer-logos">
           <div class="footer-logo_apps">
             <div class="footer-logo">
@@ -571,16 +658,38 @@
           </div>
           <div class="footer-networks">
             <div class="net-wrapper">
-              <div class="net-icon-wrapper"></div>
-              <p class="network-name"></p>
-              <p class="network-count"></p>
+              <div class="net-icon-wrapper">
+                <svg class="net-icon" width="20px" height="20px">
+                  <use href="./img/sprite.svg#vk-logo"></use>
+                </svg>
+              </div>
+              <div class="net-text-wrapper">
+                <p class="network-name">Вконтакте</p>
+                <p class="network-count">3300</p>
+              </div>
             </div>
-            <svg class="icon" width="116px" height="43px">
-              <use href="./img/sprite.svg#vklogo"></use>
-            </svg>
-            <svg class="icon" width="12px" height="12px">
-              <use href="./img/sprite.svg#whatsapp"></use>
-            </svg>
+            <div class="net-wrapper">
+              <div class="net-icon-wrapper">
+                <svg class="net-icon" width="20px" height="16px">
+                  <use href="./img/sprite.svg#yt-logo"></use>
+                </svg>
+              </div>
+              <div class="net-text-wrapper">
+                <p class="network-name">YouTube</p>
+                <p class="network-count">3606</p>
+              </div>
+            </div>
+            <div class="net-wrapper">
+              <div class="net-icon-wrapper">
+                <svg class="net-icon" width="20px" height="20px">
+                  <use href="img/sprite.svg#tg-logo"></use>
+                </svg>
+              </div>
+              <div class="net-text-wrapper">
+                <p class="network-name">Telegram</p>
+                <p class="network-count">432</p>
+              </div>
+            </div>
           </div>
         </div>
         <hr class="footer-hr" />
