@@ -391,14 +391,20 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #282739;
+  margin-bottom: 0;
 }
 .shop-list-wrapper {
-  margin-top: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .shop-item {
   width: 255px;
   border: 1px solid #eaebed;
   border-radius: 10px;
+  margin-top: 30px;
 }
 .item-img-wrapper {
   position: relative;
@@ -451,9 +457,17 @@ h1 {
   margin: 0;
   padding: 0;
 }
+.features-list-wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 25px;
+}
 .feaures-list {
+  display: flex;
+  flex-direction: column;
   list-style: none;
-  columns: 2 auto;
+  /* columns: 2 auto; */
   margin: 0;
   margin-top: 20px;
   padding: 0;
@@ -465,8 +479,8 @@ h1 {
   align-items: center;
   margin-bottom: 13px;
 }
-.price-block-wrapper {
-  margin-top: 27px;
+.features-icon {
+  margin-right: 6px;
 }
 .sale-price {
   font-style: normal;
@@ -480,6 +494,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 11px;
 }
 .main-price {
   font-style: normal;
@@ -503,7 +518,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   width: 206px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 .item-action-btn {
   width: 40px;
@@ -524,7 +539,7 @@ h1 {
   height: 445px;
   background: #f4f7fb;
   border-radius: 10px;
-  padding-top: 100px;
+  padding-top: 88px;
   position: relative;
 }
 .cta-title {
@@ -540,7 +555,7 @@ h1 {
 .cta-text {
   margin: 0;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 33px;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
@@ -567,14 +582,30 @@ h1 {
   line-height: 23px;
   text-align: center;
   color: #ffffff;
-  margin-left: 20px;
+  margin-left: 17px;
+}
+.cta-policy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #282739;
 }
 .checkbox-wrapper {
   display: block;
   margin-top: 20px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 10px;
+}
+.checkbox {
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  outline: none;
 }
 .cta-img-wrapper {
   position: absolute;
@@ -594,7 +625,7 @@ h1 {
 .sub-section {
   background-color: #6f73ee;
   margin-top: 100px;
-  padding: 24px 0;
+  padding: 7px 0;
 }
 .sub-section-title {
   font-style: normal;
@@ -632,8 +663,8 @@ h1 {
   text-align: center;
   color: #6f73ee;
   height: 53px;
-  margin-left: 20px;
-  padding: 15px 25px;
+  margin-left: 15px;
+  padding: 15px 22px;
 }
 
 /* Footer */
