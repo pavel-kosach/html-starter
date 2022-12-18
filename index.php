@@ -33,7 +33,7 @@
                 <a href="#" class="navbar-top-link">Сотрудничество</a>
               </li>
               <li class="navbar-top-item">
-                <a href="#" class="navbar-top-link">Заказать звонок</a>
+                <a href="#" class="navbar-top-link" data-toggle="modal"  data-target="#feedback-modal">Заказать звонок</a>
               </li>
             </ul>
             <ul class="nav-top-social">
@@ -153,7 +153,7 @@
               </p>
             </div>
           </div>
-          <button class="btn header-btn">Записаться</button>
+          <button class="btn header-btn"  data-toggle="modal"  data-target="#feedback-modal">Записаться</button>
         </div>
       </header>
     </div>
@@ -321,7 +321,7 @@
                   </button>
                 </div>
               </div>
-              <button class="btn item-btn">Записаться на тест-драйв</button>
+              <button class="btn item-btn"  data-toggle="modal"  data-target="#feedback-modal">Записаться на тест-драйв</button>
             </div>
           </div>
           <div class="shop-item">
@@ -384,7 +384,7 @@
                   </button>
                 </div>
               </div>
-              <button class="btn item-btn">Записаться на тест-драйв</button>
+              <button class="btn item-btn"  data-toggle="modal"  data-target="#feedback-modal">Записаться на тест-драйв</button>
             </div>
           </div>
           <div class="shop-item">
@@ -447,7 +447,7 @@
                   </button>
                 </div>
               </div>
-              <button class="btn item-btn">Записаться на тест-драйв</button>
+              <button class="btn item-btn"  data-toggle="modal"  data-target="#feedback-modal">Записаться на тест-драйв</button>
             </div>
           </div>
           <div class="shop-item">
@@ -510,7 +510,7 @@
                   </button>
                 </div>
               </div>
-              <button class="btn item-btn">Записаться на тест-драйв</button>
+              <button class="btn item-btn"  data-toggle="modal"  data-target="#feedback-modal">Записаться на тест-драйв</button>
             </div>
           </div>
         </div>
@@ -642,7 +642,7 @@
             </ul>
           </div>
           <div class="footer-menu-block">
-            <a href="#" class="footer-cta-link"> Заказать звонок </a>
+            <a href="#" class="footer-cta-link" data-toggle="modal"  data-target="#feedback-modal"> Заказать звонок </a>
           </div>
         </div>
         <hr class="footer-hr" />
@@ -743,11 +743,13 @@
       </div>
     </footer>
     <!--  -->
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
-        <svg class="modal-close-icon" width="20px" height="20px">
+      
+      <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal"><svg class="modal-close-icon" width="20px" height="20px">
           <use href="./img/sprite.svg#modal-close"></use>
-        </svg>
+        </svg></a>
+        
         <!-- modal-form-section -->
         <div class="modal-form-section">
           <h2 class="modal-title">

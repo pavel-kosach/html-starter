@@ -880,18 +880,6 @@ h1 {
   transform: translateY(-50%);
   transition: transform 0.3s;
 }
-.modal-close {
-  display: block;
-  position: absolute;
-  top: 2.5rem;
-  right: 3.125rem;
-  width: 3.125rem;
-  height: 3.125rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ebebf0;
-}
 .modal-title {
   font-style: normal;
   font-weight: 600;
