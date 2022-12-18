@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kargo</title>
+    <title>Kugoo</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -524,7 +524,7 @@
               Нет нужной модели, которую <br />
               хотите протестировать?
             </h2>
-            <form action="#" class="cta-form">
+            <form action="handler.php" method="POST" class="cta-form">
               <p class="cta-text">
                 Оставьте заявку, и менеджер подберет нужный самокат
               </p>
@@ -532,6 +532,7 @@
                 type="text"
                 class="cta-input"
                 placeholder="+7 (___) __ - __ - __"
+                name="userphone"
               />
               <button class="btn cta-btn" type="submit">
                 Оставить заявку на тест-драйв
@@ -557,11 +558,12 @@
           Оставьте свою почту и станьте первым, <br />
           кто получит скидку на новые самокаты
         </h2>
-        <form action="#" class="sub-form">
+        <form action="handler.php" method="POST" class="sub-form">
           <input
             type="text"
             class="sub-input"
             placeholder="Введите Ваш email"
+            name="usermail"
           />
           <button class="btn sub-btn">Подписаться</button>
         </form>
@@ -740,6 +742,45 @@
         </div>
       </div>
     </footer>
+    <!--  -->
+    <div class="modal">
+      <div class="modal-dialog">
+        <svg class="modal-close-icon" width="20px" height="20px">
+          <use href="./img/sprite.svg#modal-close"></use>
+        </svg>
+        <!-- modal-form-section -->
+        <div class="modal-form-section">
+          <h2 class="modal-title">
+          Запишитесь <br> на тест-драйв электросамоката
+          </h2>
+          <p class="modal-form-offer">
+          и подберите модель для себя
+          </p>
+          <p class="modal-form-text">
+          Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
+          </p>
+          <form action="handler.php" method="POST" class="modal-form">
+            <label class="modal-label" for="modal-input">
+            Как с вами удобнее связаться?
+            </label>
+            <input name="userphone" id="modal-input" type="text">
+            <button class="btn modal-form-btn">
+            Оформить предзаказ
+            </button>
+            <div class="checkbox-wrapper">
+                <input id="checkbox-modal-input" type="checkbox" class="checkbox" />
+                <label for="checkbox-modal-input" class="cta-policy">
+                  Нажимая на кнопку, вы соглашаетесь <br> на обработку
+                  персональных данных <br> и политикой конфиденциальности
+                </label>
+              </div>
+          </form>
+        </div>
+        <!-- / modal-form-section -->
+          <img class="modal-img" src="./img/scooter-test.jpg" alt="#">
+      </div>
+    </div>
+    <!--  -->
     <script src="js/main.js"></script>
   </body>
 </html>
